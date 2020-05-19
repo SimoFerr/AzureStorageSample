@@ -74,11 +74,4 @@ namespace BlobManager
              return blob;
         }
     }
-
-    public class MySettingsConfig
-    {
-        public string ServiceEndpoint { get; set; }
-        public string StorageAccountName { get; set; }
-        public string StorageAccountKey { get; set; }
-    }
 }
